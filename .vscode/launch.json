@@ -8,7 +8,8 @@
             "type": "pwa-msedge",
             "request": "launch",
             "name": "Open index.html",
-            "file": "/Users/jamescoates/Documents/Nexus PCs Code /nexuspcs.github.io/index.html"
+            "file": "/Users/jamescoates/Documents/Nexus PCs Code/nexuspcs.github.io/Home.html/"
         }
     ]
 }
+
