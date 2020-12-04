@@ -1,5 +1,12 @@
-@charset "UTF-8";
+/*begin-commonstyles animate*/@charset "UTF-8";
 
+/*!
+ * animate.css -https://daneden.github.io/animate.css/
+ * Version - 3.7.2
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2019 Daniel Eden
+ */
 
 @-webkit-keyframes bounce {
   from,
@@ -105,7 +112,7 @@
   animation-name: flash;
 }
 
-
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
 @-webkit-keyframes pulse {
   from {
@@ -483,6 +490,7 @@
   animation-name: tada;
 }
 
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
 @-webkit-keyframes wobble {
   from {
@@ -28105,7 +28113,6 @@ a.u-button-style.u-button-style.u-text-grey-60.active,
 a.u-button-style.u-button-style.u-text-grey-60[class*="u-border-"].active {
   color: #5c5c5c !important;
 }
-
 a.u-button-style.u-button-style.u-text-hover-grey-60:hover,
 a.u-button-style.u-button-style.u-text-hover-grey-60[class*="u-border-"]:hover,
 a.u-button-style.u-button-style.u-text-hover-grey-60:focus,
@@ -28120,7 +28127,6 @@ a.u-button-style.u-button-style.u-button-style.u-text-active-grey-60[class*="u-b
 .u-popupmenu-items.u-popupmenu-items.u-text-hover-grey-60 .u-nav-link.active {
   color: #666666 !important;
 }
-
 .u-text-grey-60 svg {
   fill: #666666;
 }
@@ -28533,32 +28539,39 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*end-variables sitestylecss*/
  .u-header {background-image: none}
-.u-header .u-sheet-1 {min-height: 129px}
-.u-header .u-menu-1 {font-family: size-14; margin: 12px 0 0 auto}
-.u-header .u-nav-2 {font-size: 1.25rem}
-.u-header .u-text-1 {font-size: 3.75rem; margin: -96px auto 16px 305px} 
-@media (max-width: 1199px){ .u-header .u-sheet-1 {min-height: 129px}
-.u-header .u-menu-1 {margin-top: 109px; margin-right: 0}
-.u-header .u-text-1 {margin-top: -96px; margin-left: 251px} }
-@media (max-width: 991px){ .u-header .u-text-1 {margin-left: 192px} }
-@media (max-width: 767px){ .u-header .u-menu-1 {margin-top: 81px}
-.u-header .u-text-1 {margin-bottom: 32px; margin-left: 144px} }
-@media (max-width: 575px){ .u-header .u-text-1 {margin-bottom: 16px; margin-left: 91px} }
- .u-footer .u-sheet-1 {min-height: 464px}
-.u-footer .u-container-layout-1 {padding-left: 112px; padding-right: 88px}
-.u-footer .u-text-1 {font-size: 3.75rem; margin: 52px -42px 0 2px}
-.u-footer .u-form-1 {width: 570px; margin: 35px 578px 0 -8px} 
-@media (max-width: 1199px){ .u-footer .u-text-1 {margin-left: 0; margin-right: 0}
-.u-footer .u-form-1 {margin-right: 478px; margin-left: -8px} }
-@media (max-width: 991px){ .u-footer .u-container-layout-1 {padding-left: 30px; padding-right: 30px}
-.u-footer .u-form-1 {margin-right: 318px} }
-@media (max-width: 767px){ .u-footer .u-container-layout-1 {padding-left: 10px; padding-right: 10px}
-.u-footer .u-form-1 {width: 540px; margin-right: 0; margin-left: 0} }
-@media (max-width: 575px){ .u-footer .u-form-1 {width: 340px}
-.u-footer .u-form-group-1 {width: 100%}
-.u-footer .u-form-group-2 {width: 100%}
-.u-footer .u-form-group-3 {width: 100%}
-.u-footer .u-form-group-4 {width: 100%} }
+.u-header .u-sheet-1 {min-height: 72px}
+.u-header .u-image-1 {margin: 20px auto 0 0}
+.u-header .u-logo-image-1 {max-width: 63px; max-height: 63px}
+.u-header .u-social-icons-1 {white-space: nowrap; height: 26px; min-height: 16px; width: 98px; min-width: 68px; animation-duration: 1000ms; margin: -29px 0 0 auto}
+.u-header .u-icon-1 {height: 100%}
+.u-header .u-icon-2 {height: 100%}
+.u-header .u-icon-3 {height: 100%}
+.u-header .u-menu-1 {margin: -31px 118px 0 auto}
+.u-header .u-nav-1 {font-size: 1rem}
+.u-header .u-nav-2 {font-size: 1rem} 
+@media (max-width: 1199px){ .u-header .u-image-1 {width: 63px; height: 35px}
+.u-header .u-menu-1 {margin-right: auto} }
+
+@media (max-width: 767px){ .u-header .u-sheet-1 {min-height: 148px}
+.u-header .u-image-1 {margin-left: auto}
+.u-header .u-social-icons-1 {margin-right: auto} }
+@media (max-width: 575px){ .u-header .u-sheet-1 {min-height: 165px} }
+ .u-footer .u-sheet-1 {min-height: 200px}
+.u-footer .u-image-1 {margin: 18px auto 0 0}
+.u-footer .u-logo-image-1 {max-width: 291px; max-height: 291px}
+.u-footer .u-menu-1 {margin: -120px 0 0 auto}
+.u-footer .u-nav-1 {font-size: 1.875rem; font-weight: 600}
+.u-footer .u-nav-2 {font-size: 1.25rem}
+.u-footer .u-social-icons-1 {white-space: nowrap; height: 69px; min-height: 16px; width: 228px; min-width: 68px; animation-duration: 1000ms; margin: -76px auto 60px}
+.u-footer .u-icon-1 {height: 100%}
+.u-footer .u-icon-2 {height: 100%}
+.u-footer .u-icon-3 {height: 100%} 
+@media (max-width: 1199px){ .u-footer .u-image-1 {width: 80px; height: 40px}
+.u-footer .u-menu-1 {margin-top: -160px}
+.u-footer .u-social-icons-1 {width: 228px; margin-top: -76px} }
+
+
+
 
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
