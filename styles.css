@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Background Green and red */
+body {
+	background: #BEAF76;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+	text-size: 400px;
+	font: small-caps;
+	}	
+
+
+img {
+    max-width: 500%;
+    height: auto;
+    width: auto;
+	
+}
+
+
+
+/* NAVBAR */
+
+#navbar {
+  overflow: hidden;
+  background-color: #222222;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+
+
+
+/* NAVBAR */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.video {
+
+ position: relative;
+
+ padding-bottom: 55.25%; /* set the aspect ratio here as (height / width) * 100% */
+
+ height: 0;
+
+ overflow: hidden;
+
+ max-width: 80%;
+
+}
+
+.video iframe {
+
+ position: absolute;
+
+ top: 0;
+
+ left: 0;
+
+ width: 100%;
+
+ height: 100%;
+
+}
+
+
+
+
+
