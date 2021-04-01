@@ -1,31 +1,115 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <meta charset="UTF-8">
-<title>Our Products</title>
-<link rel="stylesheet" href="Our-Products/styles.css">
-<script src="Our-Products/javascript.js"></script>
+<title>Products</title>
+
 </head>
 
 <style>
 h1 {
 		background-color: #222222;
 	}
+	
+	a:link {
+  color: #BEAF76; 
+  background-color: transparent; 
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #BEAF76;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: cornflowerblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #BEAF76;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 </style>
 
-<h1><img width="200" height="200" src="Images/logo.jpg" alt="images.google.com/" style="float:right;width:100px;height:100px;"</img><em><strong><a href="index.html">Balgowlah Heights Deli</a></strong></em></h1> 
+<h1><em><strong><a href="index.html">Balgowlah Heights Deli</a></strong></em></h1> 
 	
 <div id="navbar">
   <a href="index.html">Home</a>
   <a class="active" href="our-products.html">Our Products</a>
-  <a href="contact.html">Contact</a>	
+  	
   <a href="location.html">Visit Us</a>
+  <div class="dropdown">
+  <button class="dropbtn">Contact 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content">
+	<a href="contact.html">Visit The Contact Forum Page</a>
+	<a href="tel:+61 0450 302 636">Contact Via Phone</a>
+    <a href="mailto:jamescoates06@gmail.com">Contact Via Direct Email</a>
+  </div>
+</div>
 
+<style>
+	.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 19px;  
+  border: none;
+  outline: none;
+  color: #FFFFFF;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: Helvetica;
+  margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 0px 20px 16px rgba(190,175,118,0.2);
+	font-family: Helvetica;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+	font-family: Helvetica;
+}
+
+.dropdown-content a:hover {
+  background-color: #222222;
+	
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+	background-color: #222222;
+}
+	.dropdown:hover .dropbtn {
+  background-color: #ddd;
+}
+	</style>
 	
 	
+<br>	
 	<br>
-	</br>
 	
 <style>
 	* {
@@ -34,61 +118,119 @@ h1 {
 
 	h1 {
 		color: white;
+		
 		text-align: center;
 		
 		}
 	.row {
  	 display: flex;
+	 
+	}
+	
+	img {
+		border: 10px solid #BEAF76;
 	}
 
 	/* Create three equal columns that sits next to each other */
 	.column {
  	 flex: 33.33%;
-  	padding: 5px;
+  	padding: 30px;
+	
+	a {
+		font-family: "Helvectica";
+		color:white;
 	}
+
 </style>
-</head>
 <body>
 <br>
-</br>
-<h1>Our products</h1>
-<p1>Our current prducts in store now</p1>
 
-<div class="row">
+<h1>Products</h1>
+<center><p1>Our current products in store now</p1></center>
+
+<div class="w3-container w3-cursive">	
+<center><div class="row">
   <div class="column">
-    <img src="Images/meat1.jpg" alt="Snow" style="width:30%">
+    <figure><img src="Images/meat1.jpg" alt="Meat 1" style="width:90%"><figcaption>Freshly sliced turkey breast</figcaption></figure>
   </div>
   <div class="column">
-    <img src="Images/meat3.jpg" alt="Forest" style="width:30%">
+    <figure><img src="Images/meat3.jpg" alt="Meat 2" style="width:90%"><figcaption>Delicious sliced Italian Salami</figcaption></figure>
   </div>
   <div class="column">
-    <img src="Images/meat4.jpeg" alt="Mountains" style="width:30%">
+    <figure><img src="Images/meat4.jpeg" alt="Meat 3" style="width:90%"><figcaption>Freshly Shaved corn beef</figcaption></figure>
   </div>
-</div>
+</div></center>
 
+	
+	<!-- <figure>
+<img src="image.png" alt="The Bread Dog" width="300" height="300">
+    <figcaption>Dog</figcaption>
+</figure> -->
+	
+	
 
+	<center><div class="row">
+  <div class="column">
+    <figure><img src="Images/Chilli-garlic-sauce.jpg" alt="Chili Garlic Sauce" style="width:90%"><figcaption>Home-made chilli and garlic sauce</figcaption></figure>
+  </div>
+  <div class="column">
+    <figure><img src="Images/deli-coffee.jpg" alt="Take-away Coffee Cup" style="width:90%"><figcaption>Freshly ground coffee beans and award winning barista on site</figcaption></figure>
+  </div>
+  <div class="column">
+    <figure><img src="Images/cakes.jpg" alt="Fine selection of fresh cakes" style="width:98%"><figcaption>Amazing selection of gourmet desserts and cakes avalible</figcaption></figure>
+  </div>
+</div></center>
 	
 	
 	
 	
+	
+	
+		<center><div class="row">
+  <div class="column">
+    <figure><img src="Images/through-the-glass-selection.jpg" alt="Wraps and salads" style="width:97.9%"><figcaption>Wide range of antipasto and deli creations</figcaption></figure>
+  </div>
+  <div class="column">
+    <figure><img src="Images/ham-meat-2.jpg" alt="Hummus Containers" style="width:90%"><figcaption>Freshly shaved bone ham</figcaption></figure>
+  </div>
+  <div class="column">
+    <figure><img src="Images/cake-and-drink-etc.jpeg" alt="Some of our cakes and drinks" style="width:90%"><figcaption>Freshly baked Italian Torte and watermelon juice</figcaption></figure>
+  </div>
+</div></center>
+	
+</div>	
 	
 	
 <style>
+
+		
+	figcaption {
+		padding: 30px;
+		color: white;
+		
+		font-size: 20px;
+	}
+	
 	h1 {
 		color: white;
 		text-align: center;
-		border:5px #060606;
+		font-family: "Helvectica";
 	}	
+	body {
+		font-family: "Helvectica";
+	}
 	p1 {
 		color: white;
 		text-align: center;
 		border:5px #060606;
-		paddig:100px;
+		font-family: "Helvectica";
 		font-size: 30px;
 	}	
 	#navbar {
 	  overflow: hidden;
 	  background-color: #222222;
+		font-family: Helvetica;
+		color: aqua;
 	}
 
 	#navbar a {
@@ -98,7 +240,8 @@ h1 {
 	  text-align: center;
 	  padding: 14px 16px;
 	  text-decoration: none;
-	  font-size: 17px;
+		font-family: Helvetica;
+	  font-size: 19px;
 	}
 
 	#navbar a:hover {
@@ -107,7 +250,8 @@ h1 {
 	}
 
 	#navbar a.active {
-	  background-color: #4CAF50;
+	  background-color: #BEAF76;
+		font-family: Helvetica;
 	  color: white;
 	}
 
@@ -117,7 +261,5 @@ h1 {
 	
 </style>
 
-
-<body>
-</body>
-
+	</body>
+	</html>
