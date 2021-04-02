@@ -2,6 +2,89 @@
 /* CSS Document */
 
 /* Background color */
+
+h6 {
+	color: white;
+	font-family: "Helvetica";
+	font-size: 20px;
+}
+
+th {
+	text-align: left;
+	font-family: "Helvetica";
+	font-size: 18px;
+
+	
+}
+
+td {
+	text-align: right;
+	font-size: 18px;
+	font-family: "Helvetica";
+	padding: 10px;
+	
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 70%;
+  border: none;
+	font-weight: bold;
+  text-align: center;
+	font-family: "Helvetica";
+  outline: none;
+  font-size: 15px;
+	transition: 1s;
+}
+
+.active, .collapsible:hover {
+  background-color: #BEAF76;
+	font-family: "Helvetica";
+	font-weight: bold;
+	text-align: center;
+	transition: 1s; 
+	
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+	font-family: "Helvetica";
+  float: right;
+  margin-left: 5px;
+	
+}
+
+.active:after {
+  content: "\2212";
+	font-family: "Helvetica";
+}
+
+.content {
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+	width: 70%;
+  transition: max-height 0.8s ease-out;
+  background-color: #f1f1f1;
+	font-weight: normal;
+	font-family: "Helvetica";
+}
+
+
+
+
+
+
+
+
+
+
+
 body {
 	/* background: linear-gradient(#BEAF76, #222223);*/ 
 	font-family: "Helvetica";
@@ -204,7 +287,7 @@ img {
 	  color: white;
 	}
 
-	#navbar a.active {
+	#navbar a.activen {
 	  background-color: #BEAF76;
 		font-family: Helvetica;
 	  color: white;

@@ -9,7 +9,7 @@
 <link rel="icon" href="favicon.ico" type="image/x-icon"/>
 	<br>
 	<div id="navbar">
-  <a class="active" href="index.html">Home</a>
+  <a class="activen" href="index.html">Home</a>
   <a href="our-products.html">Our Products</a>
   <a href="location.html">Visit Us</a>
   <div class="dropdown">
@@ -64,7 +64,48 @@
 	<a class="button button2" href="button-redirect.html">Show Directions</a>
 	</center>
 	<br>
-		
+	<br>
+	
+	
+	
+	
+	<center><h6></h6>
+<button class="collapsible">Our Operating Times</button>
+<div class="content">
+	<p>  <table>
+	<tr><th>Sunday:</th><td>Closed</td></tr>
+	<tr><th>Monday:</th><td>9am - 5pm</td></tr>
+	<tr><th>Tuesday:</th><td>9am - 5pm</td></tr>
+	<tr><th>Wednesday:</th><td>9am - 5pm</td></tr>
+	<tr><th>Thursday:</th><td>9am - 5pm</td></tr>
+    <tr><th>Friday:</th><td>9am - 5pm</td></tr>
+    <tr><th>Saturday:</th><td>9am - 5pm</td></tr>
+	</table></p>
+	</div></center>
+
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+<br>
+	<br>
+	
+	
 <body>
 
 
