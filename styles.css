@@ -157,7 +157,7 @@ body {
 
 
 
-/*
+
 body {
   
   animation-iteration-count: infinite;
@@ -168,7 +168,7 @@ body {
 @keyframes change {
   0%   {background-color: #BEAF76;}
   50%  {background-color: #222223;}
-  100% {background-color: #BEAF76;}*/
+  100% {background-color: #BEAF76;}
 }
 
 
