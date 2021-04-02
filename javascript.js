@@ -17,3 +17,6 @@ function myFunction() {
   }
 }
 
+var redirecttest = window.location.href; 
+
+window.location.href = ("google.com");
