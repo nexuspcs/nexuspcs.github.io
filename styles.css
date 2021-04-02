@@ -4,12 +4,64 @@
 /* Background color */
 body {
 	/* background: linear-gradient(#BEAF76, #222223);*/ 
-	font-family: Helvetica;
+	font-family: "Helvetica";
+	background-color: #202020;
+}
+
+.address-index {
+	font-family: "Helvetica";
+	font-size: 25px;
+	font-style: italic;
+	color: white;
+}
+.video {
+	border: 10px solid #BEAF76; 
+}
+
+
+
+/*button */
+
+	.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #148D47; 
+  color: #FFFFFF; 
+  border: 4px solid #1ED96D;
+	
+}
+
+.button1:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.button2 {
+  background-color: #968647; 
+  color: white; 
+  border: 4px solid #B6A666;
+}
+
+.button2:hover {
+  background-color: #FFFFFF;
+  color: black;
 }
 
 
 
 
+/*
 body {
   
   animation-iteration-count: infinite;
@@ -20,7 +72,7 @@ body {
 @keyframes change {
   0%   {background-color: #BEAF76;}
   50%  {background-color: #222223;}
-  100% {background-color: #BEAF76;}
+  100% {background-color: #BEAF76;}*/
 }
 
 
@@ -49,7 +101,7 @@ h1 {
 	color: white;
 	text-align: center;
 	text-size: 400px;
-	font-family: Helvetica;
+	font-family: "Helvetica";
 	}	
 
 
