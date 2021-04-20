@@ -7,11 +7,9 @@
 <title>Products</title>
 
 </head>
-
+<div>
 <style>
-h1 {
-		background-color: #222222;
-	}
+
 	
 	a:link {
   color: #BEAF76; 
@@ -254,6 +252,20 @@ a:active {
 	  color: white;
 	}
 
+div {
+  
+  animation-iteration-count: infinite;
+  animation-name: change;
+  animation-duration: 10s;
+}
+
+@keyframes change {
+  0%   {background-color: #BEAF76;}
+  50%  {background-color: #222223;}
+  100% {background-color: #BEAF76;}
+}
+
+
 	#navbar a.active {
 	  background-color: #BEAF76;
 		font-family: Helvetica;
@@ -265,6 +277,6 @@ a:active {
 	}
 	
 </style>
-
+</div>
 	</body>
 	</html>
