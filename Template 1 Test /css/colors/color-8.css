@@ -1,0 +1,80 @@
+			
+.prev:hover,
+.next:hover,
+.prev:active, 
+.next:active,			
+.play:hover,
+.pause:hover,
+.play:active, 
+.pause:active {
+	background-color: #F89406;
+}
+
+.cd-headline.loading-bar .cd-words-wrapper::after,
+.pro-bar,
+.counter-line,
+.portfolio-box-1 .line-mask,
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span,
+.pricing-item a.price-link:hover {
+	background: #F89406;
+}
+ul.slimmenu li a.mPS2id-highlight,
+.scroll-down:hover,
+#sync2 .item:hover p,
+.team-wrap .mask-team p span,
+.team-wrap .mask-team ul li p span,
+.list-social li.icon-soc a:hover,
+#filter li .current,
+#filter li a:hover,
+#sync2 .synced .item p,
+.ajax-project-info .ajax-info span,
+.ajax-link,
+.section-call-action-link p,
+.blog-item .blog-item-top-text,
+.blog-item:hover .read-more,
+.pricing-item:hover h6,
+.pricing-item.popular h6,
+.pricing-item .number-price span,
+#cd-google-map address,
+.footer-social a:hover,
+.footer-social a::before,
+.footer-social a::after, 
+.footer-credit a:hover,
+.footer-credit a::before,
+.footer-credit a::after,
+.blog-box-4:hover .link,
+.blog-box-4 .post-date{
+	color: #F89406;
+}
+ul.slimmenu li a:hover {
+    border-bottom:1px solid #F89406;
+}
+.sub-line {
+	border-bottom:2px solid #F89406;
+}
+.section-separator-line{
+	border-bottom:1px dashed #F89406;
+}
+
+.owl-theme .owl-controls .owl-page span{
+	border:1px solid #F89406; 
+}
+.services-item .fill-color{
+	fill:#F89406;
+}
+#cd-zoom-in, #cd-zoom-out {
+  background-color: #F89406;
+}
+#ajax-form textarea:focus,
+#ajax-form input:focus,
+#ajax-form textarea:active,
+#ajax-form input:active {	
+	border-bottom:1px solid #F89406;
+}
+#ajax-form button{
+	color: #F89406;
+}
+.footer-credit a span{
+	border-bottom:1px solid #F89406;
+}
