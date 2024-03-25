@@ -1,0 +1,38 @@
+{
+  "homepage": "https://nathanham16.github.io/portfolio-nathan/",
+  "name": "personal-website",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.7",
+    "@types/node": "^16.11.6",
+    "@types/react": "^17.0.33",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.4.1",
+    "@heroicons/react": "^1.0.5",
+    "@tailwindcss/forms": "^0.5.3",
+    "@vercel/kv": "^0.2.1",
+    "classnames": "^2.3.1",
+    "crypto-js": "^4.1.1",
+    "framer-motion": "^5.0.1",
+    "gh-pages": "^5.0.0",
+    "jotai": "^1.4.2",
+    "next": "^13.4.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-intersection-observer": "^8.32.2",
+    "react-type-animation": "^3.1.0",
+    "yarn": "^1.22.19"
+  }
+}
