@@ -4,7 +4,7 @@ import { CardGrid } from 'components/CardGrid/CardGrid';
 // List of projects that I have completed
 export const ProjectsList = () => (
 	<CardGrid>
-		<Card
+		{/* <Card
 			title="Virtual Sustainability Tour of Brisbane"
 			link="https://github.com/QUT-CAB302-Software-Development/virtual-sustainability-tour"
 			tags={['Java', 'Spring', 'React', 'NodeJS', 'ThreeJS']}
@@ -38,6 +38,6 @@ export const ProjectsList = () => (
 			tags={['Python']}
 		>
 			My first project: simple PyGame sudoku game with 3 difficulties and multiple UI menus.
-		</Card>
+		</Card> */}
 	</CardGrid>
 );

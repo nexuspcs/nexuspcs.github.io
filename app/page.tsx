@@ -15,19 +15,19 @@ export default function Home() {
 	return (
 		<div>
 			 <Head>
-				<title>Nathan Wang Developer Portfolio</title>
-				<meta name="title" content="Nathan Wang Developer Portfolio" />
+				<title>James Coates Developer Portfolio</title>
+				<meta name="title" content="James Coates Developer Portfolio" />
 				<meta name="description" content="I'm a software engineering student striving to change the world one step at a time." />
 
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="https://metatags.io" />
-				<meta property="og:title" content="Nathan Wang Developer Portfolio" />
+				<meta property="og:title" content="James Coates Developer Portfolio" />
 				<meta property="og:description" content="I'm a software engineering student striving to change the world one step at a time." />
 				<meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
 
 				<meta property="twitter:card" content="summary_large_image" />
 				<meta property="twitter:url" content="https://metatags.io" />
-				<meta property="twitter:title" content="Nathan Wang Developer Portfolio" />
+				<meta property="twitter:title" content="James Coates Developer Portfolio" />
 				<meta property="twitter:description" content="I'm a software engineering student striving to change the world one step at a time." />
 				<meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
 
@@ -36,22 +36,22 @@ export default function Home() {
 				<div className="min-h-screen flex flex-col justify-center relative">
 					<div className={`${containerClasses} z-10`}>
 						<SectionTitle big accentText="Hello! My name is ">
-							Nathan Wang
+							James Coates
 						</SectionTitle>
 						<div className="text-slate-400 sm:text-lg lg:text-xl leading-relaxed max-w-prose">
 							<h2 className="text-slate-200 font-medium pb-1 lg:pb-1.5">
-								Co-Founder, Software Developer, Sessional Academic
+								!!!! fixx~~ Co-Founder, Software Developer, Sessional Academic
 							</h2>
 						</div>
 						<div className="h-6 md:h-8 xl:h-16"></div>
 						<div className="font-mono uppercase text-slate-400 text-sm sm:text-base">
-							<a className={fancyLinkClasses} href="mailto:nathan123wang@gmail.com" target="_blank">
+							<a className={fancyLinkClasses} href="mailto:jamescoates06@gmail.com" target="_blank">
 								Email
 							</a>{' '}
 							·{' '}
 							<a
 								className={fancyLinkClasses}
-								href="https://github.com/NathanHam16"
+								href="https://github.com/nexuspcs"
 								target="_blank"
 							>
 								Github
@@ -59,7 +59,7 @@ export default function Home() {
 							·{' '}
 							<a
 								className={fancyLinkClasses}
-								href="https://www.linkedin.com/in/nathan-wang-b73966235/"
+								href="https://www.linkedin.com/in/jamescoatesaus"
 								target="_blank"
 							>
 								Linkedin
@@ -91,7 +91,7 @@ export default function Home() {
 						<h2 className="text-slate-200 font-medium pb-1 lg:pb-1.5">Co-Founder, 99 Plus Education</h2>
 						<p>
 							To view my full software engineering work experience, please visit{' '}
-							<a href="https://www.linkedin.com/in/nathan-wang-b73966235/" className={fancyLinkClasses} target="_blank">
+							<a href="https://www.linkedin.com/in/jamescoatesaus" className={fancyLinkClasses} target="_blank">
 								visit my Linkedin page
 							</a>
 							.
@@ -135,7 +135,7 @@ export default function Home() {
 
 						<div className="h-1 lg:h-1"></div>
 
-						<a className={fancyLinkClasses} href="mailto:nathan123wang@gmail.com" target="_blank">
+						<a className={fancyLinkClasses} href="mailto:jamescoates06@gmail.com" target="_blank">
 							Say hello here!
 						</a>{' '}
 					</div>
@@ -146,10 +146,10 @@ export default function Home() {
 				<div className={`${containerClasses} pb-6 md:pb-12 lg:pb-24`}>
 					<div className="font-mono text-slate-400 text-xs md:text-sm lg:text-base">
 						<br />
-						This site is built with NextJs and TailWind Css by Nathan Wang. View the source code on{' '}
+						This site is built with NextJs and TailWind Css by James Coates. View the source code on{' '}
 						<a
 							className={linkClasses}
-							href="https://github.com/NathanHam16/portfolio-nathan"
+							href="https://github.com/nexuspcs/nexuspcs.github.io"
 							target="_blank"
 						>
 							Github
